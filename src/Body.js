@@ -12,7 +12,7 @@ const [{discover_weekly}, dispatch] = useDataLayerValue( )
 
 const playPlaylist = (id) =>{
 spotify.play({
-    context_uri: `spotify:playlist:37i9dQZEVXcL6oISZ49PFA`,
+    context_uri: `addURIhere`,
 
 }).then((res) => {
     spotify.getMyCurrentPlaylistTrack().then((r) => {
