@@ -51,7 +51,7 @@ if(_token) {
     })
   });
 
-  spotify.getPlaylist('37i9dQZEVXcL6oISZ49PFA').then(response => {
+  spotify.getPlaylist('addlinkhere').then(response => {
     dispatch({
       type: "SET_DISCOVER_WEEKLY",
       discover_weekly: response,
